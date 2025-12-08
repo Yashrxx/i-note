@@ -13,7 +13,7 @@ const Login = (props) => {
         e.preventDefault();
         setLoading(true);
         //ApI call login
-        const response = await fetch('http://localhost:5000/api/auth/login', {
+        const response = await fetch('https://i-note-7yp1.onrender.com/api/auth/login', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'

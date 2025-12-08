@@ -9,7 +9,7 @@ const Signup = (props) => {
         //ApI call login
         // const {name,email,password,cpassword}=Credentials
         const {name,email,password}=Credentials
-        const response = await fetch('http://localhost:5000/api/auth/createuser', {
+        const response = await fetch('https://i-note-7yp1.onrender.com/api/auth/createuser', {
             method: 'POST',
             headers: {
                 'Content-type': 'application/json'

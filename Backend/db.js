@@ -1,8 +1,8 @@
+require("dotenv").config();   // <-- IMPORTANT
+
 const mongoose = require("mongoose");
 
-// Replace with your actual Atlas credentials
-// IMPORTANT: Encode special characters in password!!
-const mongoURI = "mongodb+srv://Yash:Aditi_jain01@cluster0.uaizsnm.mongodb.net/inote?retryWrites=true&w=majority";
+const mongoURI = process.env.MONGO_URI;  // <-- READ FROM ENV
 
 const connectToMongo = () => {
     mongoose.connect(mongoURI)

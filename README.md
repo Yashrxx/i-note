@@ -1,59 +1,70 @@
-Project Description — i-Note
+# Getting Started with Create React App
 
-i-Note is a full-stack personal notes and code-snippet manager built using the MERN (MongoDB, Express, React, Node.js) stack. It allows users to securely create, update, store, and manage their daily notes or programming snippets in an organized and user-friendly interface.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-The application includes authentication, dynamic CRUD operations, and a clean UI optimized for productivity. Users can quickly paste code, preserve formatting, copy snippets, and expand long content using a “Read more / Show less” feature.
+## Available Scripts
 
-✨ Features
+In the project directory, you can run:
 
-🔐 User Authentication
+### `npm start`
 
-Login / Signup using JWT and secure token storage
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-📝 Add, Edit, Delete Notes
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Title + multiline description (preserves newlines, perfect for code)
+### `npm test`
 
-🔎 Read More / Show Less
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Show only first few lines with toggle to expand full text
+### `npm run build`
 
-📋 Copy Snippets
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-One-click copy button for code or content
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-🗄 MongoDB Atlas Cloud Database
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Notes stored safely in cloud for persistence
+### `npm run eject`
 
-♻️ Real-time Updates
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-UI without page refresh using React state & API integration
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-🎨 Clean Bootstrap UI
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-Responsive cards, modal editor, and styled buttons
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-🛠️ Tech Stack
-Layer	Technology
-Frontend	React, Bootstrap, FontAwesome
-Backend	Node.js, Express.js
-Database	MongoDB Atlas (Cloud)
-Security	JWT Authentication, bcrypt password hashing
-🚀 Future Enhancements
+## Learn More
 
-Syntax highlighting for code snippets
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Categorization / Tags / Search filter
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Dark mode
+### Code Splitting
 
-Export / Download notes as file
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-📂 Project Structure
-/frontend   → React UI (components, context API, routes)
-/backend    → Express API (routes, models, controllers)
+### Analyzing the Bundle Size
 
-💡 Purpose
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-i-Note helps developers and students maintain a personal knowledge base — whether it's notes, ideas, interview questions, or code snippets — and access them securely anytime.
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import noteContext from "./noteContext";
 const NoteState = (props) => {
-  const host = 'http://localhost:5000'
+  const host = process.env.NODE_ENV === "production"
+    ? "https://i-note-7yp1.onrender.com"
+    : "http://localhost:5000";
   const notesInitial = []
   const [notes, setNotes] = useState(notesInitial);
   //add a note
